@@ -1,0 +1,66 @@
+{
+  "name": "atc",
+  "version": "1.0.0",
+  "deps": [
+    {
+      "src": "https://github.com/adolphlxm/atc.git",
+      "dst": "git@git.linewin.cc:3rd/atc.git",
+      "ver": "1820a182"
+    },
+    {
+      "src": "https://github.com/lxmgo/config.git",
+      "dst": "git@git.linewin.cc:3rd/config.git",
+      "ver": "e3762b43"
+    },
+    {
+      "src": "https://github.com/go-xorm/xorm.git",
+      "dst": "git@git.linewin.cc:3rd/xorm.git",
+      "ver": "1933dd69"
+    },
+    {
+      "src": "https://github.com/go-xorm/builder.git",
+      "dst": "git@git.linewin.cc:3rd/builder.git",
+      "ver": "a4a881a4"
+    },
+    {
+      "src": "https://github.com/go-xorm/core.git",
+      "dst": "git@git.linewin.cc:3rd/core.git",
+      "ver": "589eefd4"
+    },
+    {
+      "src": "https://github.com/go-sql-driver/mysql.git",
+      "dst": "git@git.linewin.cc:3rd/mysql.git",
+      "ver": "9181e3a8"
+    },
+    {
+      "src": "https://github.com/garyburd/redigo.git",
+      "dst": "git@git.linewin.cc:3rd/redigo.git",
+      "ver": "b389d539"
+    },
+    {
+      "src": "https://github.com/bradfitz/gomemcache.git",
+      "dst": "git@git.linewin.cc:3rd/gomemcache.git",
+      "ver": "1952afaa"
+    },
+    {
+      "src": "https://github.com/golang/protobuf.git",
+      "dst": "git@git.linewin.cc:3rd/protobuf.git",
+      "ver": "1e59b77b"
+    },
+    {
+      "src": "https://github.com/nats-io/go-nats.git",
+      "dst": "git@git.linewin.cc:3rd/go-nats.git",
+      "ver": "d66cb54e"
+    },
+    {
+      "src": "https://github.com/nats-io/nuid.git",
+      "dst": "git@git.linewin.cc:3rd/nuid.git",
+      "ver": "33c60315"
+    },
+    {
+        "src": "https://gopkg.in/mgo.v2.git",
+        "dst": "git@git.linewin.cc:3rd/go-mgo.git",
+        "ver": "3f83fa50"
+    }
+  ]
+}

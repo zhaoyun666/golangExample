@@ -22,7 +22,9 @@ func fib(x int) int {
 }
 
 func main() {
-    go spinner(100 * time.Millisecond)
+    delay := 100 * time.Millisecond
+    go spinner(delay)
+
     const n = 45
     fibN := fib(n)
     fmt.Printf("\rFibonacci(%d) = %d\n", n, fibN)

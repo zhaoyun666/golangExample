@@ -17,7 +17,11 @@ func teller() {
 			balance += amount
 		case balances <- balance:
 		case amount := <-withdraw:
-			balance -= amount
+			if balance - amount >= 0 {
+				balance -= amount
+			} else {
+				balance = 0
+			}
 		}
 	}
 }
@@ -27,7 +31,7 @@ func main() {
 	Deposit(200)
 	Deposit(100)
 	WithDraw(10)
-	WithDraw(50)
+	WithDraw(520)
 	Deposit(1 << 1)
 	Deposit(1 << 2)
 	fmt.Println(Balance())
