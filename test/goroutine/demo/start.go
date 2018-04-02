@@ -1,16 +1,18 @@
 package main
 
 import (
+	"fmt"
+	"learning-golang-process/test/goroutine/demo/cache"
 	"learning-golang-process/test/goroutine/demo/db"
 	"math/rand"
 	"os"
 	"sync"
 	"time"
-	"learning-golang-process/test/goroutine/demo/cache"
-	"fmt"
 )
+
 var mu sync.RWMutex
 var ch = make(chan int)
+
 //生成随机int
 func getRand(num int) int {
 	rand.Seed(time.Now().UnixNano())
@@ -20,8 +22,9 @@ func getRand(num int) int {
 	mu.Unlock()
 	return v
 }
+
 //生成随机字符串
-func GetRandomString(length int64) string{
+func GetRandomString(length int64) string {
 	str := "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	bytes := []byte(str)
 	result := []byte{}
@@ -33,10 +36,11 @@ func GetRandomString(length int64) string{
 	return string(result)
 }
 func main() {
+	cache.InitCache()
 	var num int64
-	for num = 0; num < 100; num ++ {
+	for num = 0; num < 100; num++ {
 		//go write()
-		go readRedis(num, num + 1)
+		go readRedis(num, num+1)
 	}
 
 	for {
@@ -46,7 +50,7 @@ func main() {
 			goto L
 		}
 	}
-	L:
+L:
 	os.Exit(1)
 }
 
@@ -61,8 +65,8 @@ func write() {
 }
 
 func readRedis(i, j int64) {
-	r := cache.Rd.LRange("task1", i, j)
+
 	fmt.Println(r.Result())
 	cache.Rd.SRem("task1", []int64{i, j})
-	ch<-1
+	ch <- 1
 }

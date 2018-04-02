@@ -1,21 +1,21 @@
 package main
 
 import (
-    "fmt"
-    "time"
+	"fmt"
+	"time"
 )
 
 var ch = make(chan int)
 
 func main() {
 
-    go wait("A", 1)
-    fmt.Println(<-ch)
+	go wait("A", 1)
+	fmt.Println(<-ch)
 
 }
 
-func wait(name string, n int){
-    time.Sleep(time.Duration(n) * time.Second)
-    fmt.Println(name, "is ready")
-    ch<-1
+func wait(name string, n int) {
+	time.Sleep(time.Duration(n) * time.Second)
+	fmt.Println(name, "is ready")
+	ch <- 1
 }

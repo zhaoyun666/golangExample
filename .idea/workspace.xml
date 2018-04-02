@@ -2,8 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02e26636-fb59-4481-bea0-715904c1a73d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/essays" beforeDir="false" afterPath="$PROJECT_DIR$/essays" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/goroutine/demo/test/encrypt_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/goroutine/demo/test/goroutine_timeout_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/goroutine/demo/test/sync_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/goroutine/demo/test/test.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/essays" afterPath="$PROJECT_DIR$/essays" />
+      <change beforePath="$PROJECT_DIR$/start.go" afterPath="$PROJECT_DIR$/start.go" />
+      <change beforePath="$PROJECT_DIR$/test/app/src/api/api.go" afterPath="$PROJECT_DIR$/test/app/src/api/api.go" />
+      <change beforePath="$PROJECT_DIR$/test/app/src/atc.go" afterPath="$PROJECT_DIR$/test/app/src/atc.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch2/dataType/ch1/c.go" afterPath="$PROJECT_DIR$/test/ch2/dataType/ch1/c.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch2/popcount/pop.go" afterPath="$PROJECT_DIR$/test/ch2/popcount/pop.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch2/scope/t.go" afterPath="$PROJECT_DIR$/test/ch2/scope/t.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch6/bitArray/inset.go" afterPath="$PROJECT_DIR$/test/ch6/bitArray/inset.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch7/assertions/assert.go" afterPath="$PROJECT_DIR$/test/ch7/assertions/assert.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch7/bytecounter/bytec.go" afterPath="$PROJECT_DIR$/test/ch7/bytecounter/bytec.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch7/flag/tempconv/temperature.go" afterPath="$PROJECT_DIR$/test/ch7/flag/tempconv/temperature.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch7/flag/tempflag/demo.go" afterPath="$PROJECT_DIR$/test/ch7/flag/tempflag/demo.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch7/http1/h1.go" afterPath="$PROJECT_DIR$/test/ch7/http1/h1.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch7/sleep/period.go" afterPath="$PROJECT_DIR$/test/ch7/sleep/period.go" />
+      <change beforePath="$PROJECT_DIR$/test/ch7/write/test.go" afterPath="$PROJECT_DIR$/test/ch7/write/test.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/20180301/v1/struct_test.go" afterPath="$PROJECT_DIR$/test/goroutine/20180301/v1/struct_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/channels/chat/netcat/cat.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/channels/chat/netcat/cat.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/channels/chat/netchat/chat.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/channels/chat/netchat/chat.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/channels/concurrent/1/v.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/channels/concurrent/1/v.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/channels/concurrent/bank/bank1/bank1.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/channels/concurrent/bank/bank1/bank1.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/channels/v1/v.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/channels/v1/v.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/clock/clock1.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/clock/clock1.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/fibonacci/spinner.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/fibonacci/spinner.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/pipeline1/pipe1.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/pipeline1/pipe1.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch8/pipeline2/pipe2.go" afterPath="$PROJECT_DIR$/test/goroutine/ch8/pipeline2/pipe2.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/ch9/memo/m1.go" afterPath="$PROJECT_DIR$/test/goroutine/ch9/memo/m1.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/demo/cache/CRedis.go" afterPath="$PROJECT_DIR$/test/goroutine/demo/cache/CRedis.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/demo/db/init.go" afterPath="$PROJECT_DIR$/test/goroutine/demo/db/init.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/demo/start.go" afterPath="$PROJECT_DIR$/test/goroutine/demo/start.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/demo/test/redis_test.go" afterPath="$PROJECT_DIR$/test/goroutine/demo/test/redis_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/goroutine/test.go" afterPath="$PROJECT_DIR$/test/goroutine/test.go" />
+      <change beforePath="$PROJECT_DIR$/test/http/v1/fetch.go" afterPath="$PROJECT_DIR$/test/http/v1/fetch.go" />
+      <change beforePath="$PROJECT_DIR$/test/images/gif/v1.go" afterPath="$PROJECT_DIR$/test/images/gif/v1.go" />
+      <change beforePath="$PROJECT_DIR$/test/string/by_test.go" afterPath="$PROJECT_DIR$/test/string/by_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/string/demo_test.go" afterPath="$PROJECT_DIR$/test/string/demo_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/string/machineId_test.go" afterPath="$PROJECT_DIR$/test/string/machineId_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/string/str_test.go" afterPath="$PROJECT_DIR$/test/string/str_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/string/v_test.go" afterPath="$PROJECT_DIR$/test/string/v_test.go" />
+      <change beforePath="$PROJECT_DIR$/test/string/vbi_test.go" afterPath="$PROJECT_DIR$/test/string/vbi_test.go" />
     </list>
     <ignored mask="rest-client.private.env.json" />
     <ignored mask="http-client.private.env.json" />
@@ -30,50 +72,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZImage.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essays/goTool/ZImage.go">
+      <file leaf-file-name="encrypt_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/goroutine/demo/test/encrypt_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZOss.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essays/goTool/ZOss.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conn.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../github.com/aliyun/aliyun-oss-go-sdk/oss/conn.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZImage_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essays/goTool/ZImage_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="519">
+              <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
               <folding>
-                <element signature="e#16#51#0" expanded="true" />
+                <element signature="e#14#123#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZOss_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essays/goTool/ZOss_test.go">
+      <file leaf-file-name="goroutine_timeout_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/goroutine/demo/test/goroutine_timeout_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="125" column="33" lean-forward="true" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+              <folding>
+                <element signature="e#14#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binary.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/encoding/binary/binary.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="118" column="23" lean-forward="false" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtin.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/builtin/builtin.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crc32.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/hash/crc32/crc32.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="199" column="5" lean-forward="false" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crc32_generic.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/hash/crc32/crc32_generic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crc32_test.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/hash/crc32/crc32_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-91">
+              <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_test.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/hash/crc32/example_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/goroutine/demo/test/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hash.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/hash/hash.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,6 +189,9 @@
     <findStrings>
       <find>GOBIRTHDAY</find>
       <find>package goTool\n\nimport \&quot;testing\&quot;\n\nfunc TestOss\(t \*testing\.T\) \{\n    Zo \:\= Zoss\{\n    \&quot;oss\-cn\-hangzhou\.aliyuncs\.com\&quot;\, \&quot;7EZWRNvDadP5AQrH\&quot;\, \&quot;wLxqEUTyMhu7vK3dUS4QgoZc4TT6Io\&quot;\, \&quot;www\-linewin\-cc\&quot;\}\n    Zo\.Upload\(\)\n    \}\n</find>
+      <find>Write</find>
+      <find>Sum</find>
+      <find>0xD5828281</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -107,10 +208,6 @@
         <option value="$PROJECT_DIR$/test/app/src/api/api.go" />
         <option value="$PROJECT_DIR$/test/goroutine/ch9/memo/m1.go" />
         <option value="$PROJECT_DIR$/test/goroutine/demo/db/init.go" />
-        <option value="$PROJECT_DIR$/test/goroutine/demo/test/redis_test.go" />
-        <option value="$PROJECT_DIR$/test/goroutine/demo/start.go" />
-        <option value="$PROJECT_DIR$/test/goroutine/demo/cache/CRedis.go" />
-        <option value="$PROJECT_DIR$/test/goroutine/test.go" />
         <option value="$PROJECT_DIR$/test/goroutine/20180301/v1/structTest.go" />
         <option value="$PROJECT_DIR$/test/gotest/webbench_test.go" />
         <option value="$PROJECT_DIR$/test/goroutine/20180301/v1/struct_test.go" />
@@ -127,6 +224,15 @@
         <option value="$PROJECT_DIR$/essays/goTool/Zoss_test.go" />
         <option value="$PROJECT_DIR$/essays/goTool/ZOss_test.go" />
         <option value="$PROJECT_DIR$/essays/goTool/ZOss.go" />
+        <option value="$PROJECT_DIR$/test/goroutine/demo/start.go" />
+        <option value="$PROJECT_DIR$/test/goroutine/demo/cache/CRedis.go" />
+        <option value="$PROJECT_DIR$/test/goroutine/test.go" />
+        <option value="$PROJECT_DIR$/test/goroutine/demo/test/redis_test.go" />
+        <option value="$PROJECT_DIR$/test/goroutine/demo/test/sync_test.go" />
+        <option value="$PROJECT_DIR$/test/goroutine/demo/test/test_encrypt.go" />
+        <option value="$PROJECT_DIR$/test/goroutine/demo/test/test.txt" />
+        <option value="$PROJECT_DIR$/test/goroutine/demo/test/encrypt_test.go" />
+        <option value="$PROJECT_DIR$/test/goroutine/demo/test/goroutine_timeout_test.go" />
       </list>
     </option>
   </component>
@@ -137,10 +243,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="28" />
-    <option name="width" value="1394" />
-    <option name="height" value="678" />
+    <option name="x" value="2180" />
+    <option name="y" value="86" />
+    <option name="width" value="1378" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -162,11 +268,20 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,18 +292,35 @@
             <path>
               <item name="learning-golang-process" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning-golang-process" type="462c0819:PsiDirectoryNode" />
-              <item name="essays" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learning-golang-process" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning-golang-process" type="462c0819:PsiDirectoryNode" />
-              <item name="essays" type="462c0819:PsiDirectoryNode" />
-              <item name="goTool" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="goroutine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-golang-process" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-golang-process" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="goroutine" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-golang-process" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-golang-process" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="goroutine" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +330,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="http.client.ignore.private.env.files.were.configured" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ossClient" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git.linewin.cc/ssa/atl" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -222,129 +354,125 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestOssDelete in learning-golang-process/essays/goTool">
-    <configuration name="go build Limage.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSharedVariables in goroutine_timeout_test.go">
+    <configuration name="TestChannelIsFull in goroutine_timeout_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learning-golang-process" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/essays/goTool/Limage.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="Test in learning-golang-process/essays/goTool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="learning-golang-process" />
-      <working_directory value="$PROJECT_DIR$/essays/goTool" />
+      <working_directory value="$PROJECT_DIR$/test/goroutine/demo/test" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learning-golang-process/essays/goTool" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test$" />
+      <package value="learning-golang-process/test/goroutine/demo/test" />
+      <pattern value="^TestChannelIsFull$" />
     </configuration>
-    <configuration name="TestLimage in learning-golang-process/essays/goTool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGoroutineTimeout in goroutine_timeout_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learning-golang-process" />
-      <working_directory value="$PROJECT_DIR$/essays/goTool" />
+      <working_directory value="$PROJECT_DIR$/test/goroutine/demo/test" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learning-golang-process/essays/goTool" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestLimage$" />
+      <package value="learning-golang-process/test/goroutine/demo/test" />
+      <pattern value="^TestGoroutineTimeout$" />
     </configuration>
-    <configuration name="TestOss in learning-golang-process/essays/goTool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProductAndConsumer in goroutine_timeout_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learning-golang-process" />
-      <working_directory value="$PROJECT_DIR$/essays/goTool" />
+      <working_directory value="$PROJECT_DIR$/test/goroutine/demo/test" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learning-golang-process/essays/goTool" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestOss$" />
+      <package value="learning-golang-process/test/goroutine/demo/test" />
+      <pattern value="^TestProductAndConsumer$" />
     </configuration>
-    <configuration name="TestOssDelete in learning-golang-process/essays/goTool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSelectDefault in goroutine_timeout_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="learning-golang-process" />
-      <working_directory value="$PROJECT_DIR$/essays/goTool" />
+      <working_directory value="$PROJECT_DIR$/test/goroutine/demo/test" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="learning-golang-process/essays/goTool" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestOssDelete$" />
+      <package value="learning-golang-process/test/goroutine/demo/test" />
+      <pattern value="^TestSelectDefault$" />
     </configuration>
-    <list>
-      <item itemvalue="Go Build.go build Limage.go" />
-      <item itemvalue="Go Test.Test in learning-golang-process/essays/goTool" />
-      <item itemvalue="Go Test.TestLimage in learning-golang-process/essays/goTool" />
-      <item itemvalue="Go Test.TestOss in learning-golang-process/essays/goTool" />
-      <item itemvalue="Go Test.TestOssDelete in learning-golang-process/essays/goTool" />
+    <configuration name="TestSharedVariables in goroutine_timeout_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="learning-golang-process" />
+      <working_directory value="$PROJECT_DIR$/test/goroutine/demo/test" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learning-golang-process/test/goroutine/demo/test" />
+      <pattern value="^TestSharedVariables$" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestGoroutineTimeout in goroutine_timeout_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestChannelIsFull in goroutine_timeout_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestProductAndConsumer in goroutine_timeout_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestSelectDefault in goroutine_timeout_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestSharedVariables in goroutine_timeout_test.go" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Go Test.TestOssDelete in learning-golang-process/essays/goTool" />
-        <item itemvalue="Go Test.TestOss in learning-golang-process/essays/goTool" />
-        <item itemvalue="Go Test.TestLimage in learning-golang-process/essays/goTool" />
-        <item itemvalue="Go Test.Test in learning-golang-process/essays/goTool" />
-        <item itemvalue="Go Build.go build Limage.go" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestSharedVariables in goroutine_timeout_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestSelectDefault in goroutine_timeout_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestProductAndConsumer in goroutine_timeout_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestChannelIsFull in goroutine_timeout_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestGoroutineTimeout in goroutine_timeout_test.go" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="TestHistory">
-    <history-entry file="TestOss_in_learning-golang-process_essays_goTool - 2018.03.16 at 16h 56m 47s.xml">
-      <configuration name="TestOss in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestChannelIsFull_in_goroutine_timeout_test_go - 2018.04.02 at 17h 36m 24s.xml">
+      <configuration name="TestChannelIsFull in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOss_in_learning-golang-process_essays_goTool - 2018.03.16 at 16h 56m 59s.xml">
-      <configuration name="TestOss in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestProductAndConsumer_in_goroutine_timeout_test_go - 2018.04.02 at 17h 42m 25s.xml">
+      <configuration name="TestProductAndConsumer in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOss_in_learning-golang-process_essays_goTool - 2018.03.16 at 16h 57m 33s.xml">
-      <configuration name="TestOss in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestProductAndConsumer_in_goroutine_timeout_test_go - 2018.04.02 at 17h 42m 53s.xml">
+      <configuration name="TestProductAndConsumer in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOss_in_learning-golang-process_essays_goTool - 2018.03.16 at 17h 01m 32s.xml">
-      <configuration name="TestOss in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestProductAndConsumer_in_goroutine_timeout_test_go - 2018.04.02 at 17h 43m 08s.xml">
+      <configuration name="TestProductAndConsumer in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOss_in_learning-golang-process_essays_goTool - 2018.03.16 at 17h 23m 54s.xml">
-      <configuration name="TestOss in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestProductAndConsumer_in_goroutine_timeout_test_go - 2018.04.02 at 17h 43m 19s.xml">
+      <configuration name="TestProductAndConsumer in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOss_in_learning-golang-process_essays_goTool - 2018.03.16 at 17h 24m 16s.xml">
-      <configuration name="TestOss in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestProductAndConsumer_in_goroutine_timeout_test_go - 2018.04.02 at 17h 43m 51s.xml">
+      <configuration name="TestProductAndConsumer in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOss_in_learning-golang-process_essays_goTool - 2018.03.16 at 17h 25m 09s.xml">
-      <configuration name="TestOss in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestProductAndConsumer_in_goroutine_timeout_test_go - 2018.04.02 at 17h 49m 29s.xml">
+      <configuration name="TestProductAndConsumer in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOss_in_learning-golang-process_essays_goTool - 2018.03.16 at 18h 04m 10s.xml">
-      <configuration name="TestOss in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSelectDefault_in_goroutine_timeout_test_go - 2018.04.02 at 17h 49m 32s.xml">
+      <configuration name="TestSelectDefault in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOssDelete_in_learning-golang-process_essays_goTool - 2018.03.16 at 18h 06m 27s.xml">
-      <configuration name="TestOssDelete in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSelectDefault_in_goroutine_timeout_test_go - 2018.04.02 at 17h 50m 06s.xml">
+      <configuration name="TestSelectDefault in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestOssDelete_in_learning-golang-process_essays_goTool - 2018.03.16 at 18h 06m 56s.xml">
-      <configuration name="TestOssDelete in learning-golang-process/essays/goTool" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSharedVariables_in_goroutine_timeout_test_go - 2018.04.02 at 17h 59m 07s.xml">
+      <configuration name="TestSharedVariables in goroutine_timeout_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1922" height="1019" extended-state="6" />
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19251336" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" weight="0.45703703" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33256617" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.032818533" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23820484" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19525649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45703703" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36012527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2651357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23820484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,161 +486,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/test/goroutine/demo/test/redis_test.go</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/essays/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="63">
-            <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/goroutine/20180301/v1/struct_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/php/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/php/server/HSocketServer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/tcpIP/TCP协议.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="987">
-            <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/tcpIP/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="567" column="10" selection-start-line="567" selection-start-column="10" selection-end-line="567" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/image/image.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/image/color/color.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/math/sin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1766">
-          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/blur_test.go" />
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/graphicstest/graphicstest.go" />
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/thumbnail.go" />
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/thumbnail_test.go" />
-    <entry file="file://$PROJECT_DIR$/../code.google.com/p/graphics-go/graphics/thumbnail_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="53" lean-forward="true" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/scale_test.go" />
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/scale.go" />
-    <entry file="file://$PROJECT_DIR$/../code.google.com/p/graphics-go/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/thumbnial_test.go" />
-    <entry file="file://$PROJECT_DIR$/../code.google.com/p/graphics-go/graphics/graphicstest/graphicstest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/thumbnail.go" />
-    <entry file="file://$PROJECT_DIR$/essays/goTool/graphics/affine.go" />
-    <entry file="file://$PROJECT_DIR$/../code.google.com/p/graphics-go/graphics/affine.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/image/format.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/image/png/writer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="476" column="5" selection-start-line="476" selection-start-column="5" selection-end-line="476" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/image/jpeg/writer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="541" column="5" selection-start-line="541" selection-start-column="5" selection-end-line="541" selection-end-column="5" />
+          <caret line="541" column="5" lean-forward="false" selection-start-line="541" selection-start-column="5" selection-end-line="541" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/image/gif/writer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="281" column="25" selection-start-line="281" selection-start-column="25" selection-end-line="281" selection-end-column="25" />
+          <caret line="281" column="25" lean-forward="false" selection-start-line="281" selection-start-column="25" selection-end-line="281" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -526,164 +519,357 @@
     <entry file="file://$PROJECT_DIR$/../code.google.com/p/graphics-go/graphics/scale.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../code.google.com/p/graphics-go/graphics/rotate.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/image/geom.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../code.google.com/p/graphics-go/graphics/rotate_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../code.google.com/p/graphics-go/graphics/shared_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/HGo/start.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/path/filepath/path.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8820">
-          <caret line="425" column="5" selection-start-line="425" selection-start-column="5" selection-end-line="425" selection-end-column="5" />
+          <caret line="425" column="5" lean-forward="false" selection-start-line="425" selection-start-column="5" selection-end-line="425" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tools/library/communiation/message/sms.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="83" column="43" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../tools/library/communiation/message/sms.go" />
     <entry file="file:///usr/local/go/src/path/path.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
+          <caret line="164" column="5" lean-forward="false" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/time/format.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
-          <caret line="741" column="10" selection-start-line="741" selection-start-column="5" selection-end-line="741" selection-end-column="10" />
+          <caret line="741" column="10" lean-forward="false" selection-start-line="741" selection-start-column="5" selection-end-line="741" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/strconv/itoa.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/time/time.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/goTool/ZImage.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/go/src/log/log.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="300" column="5" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
+          <caret line="300" column="5" lean-forward="false" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/aliyun/aliyun-oss-go-sdk/oss/client.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/aliyun/aliyun-oss-go-sdk/oss/bucket.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8295">
-          <caret line="410" column="21" selection-start-line="410" selection-start-column="21" selection-end-line="410" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/goTool/ZImage_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#16#51#0" expanded="true" />
-          </folding>
+          <caret line="410" column="21" lean-forward="false" selection-start-line="410" selection-start-column="21" selection-end-line="410" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/aliyun/aliyun-oss-go-sdk/oss/option.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4389">
-          <caret line="215" column="5" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
+          <caret line="215" column="5" lean-forward="false" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essays/goTool/ZOss_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essays/goTool/ZOss.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="468">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/aliyun/aliyun-oss-go-sdk/oss/conf.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-239">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/aliyun/aliyun-oss-go-sdk/oss/conn.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essays/goTool/ZImage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essays/goTool/ZImage_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essays/goTool/ZOss.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/garyburd/redigo/redis/test_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/garyburd/redigo/redis/conn_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10812">
+          <caret line="39" column="67" lean-forward="true" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/garyburd/redigo/redis/pool_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essays/HGo/start.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/garyburd/redigo/redis/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/demo/start.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/garyburd/redigo/redis/conn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="127" column="73" lean-forward="true" selection-start-line="127" selection-start-column="73" selection-end-line="127" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/demo/cache/CRedis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/demo/db/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/os/signal/signal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="104" column="5" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/syscall/zerrors_linux_amd64.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="1405" column="42" lean-forward="true" selection-start-line="1405" selection-start-column="42" selection-end-line="1405" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/sync/waitgroup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#69#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/demo/test/sync_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/demo/test/redis_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="188" column="5" lean-forward="false" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/demo/test/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/hash/hash.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/hash/crc32/crc32_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/hash/crc32/crc32_generic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/hash/crc32/crc32.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="199" column="5" lean-forward="false" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/hash/crc32/example_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/encoding/binary/binary.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="118" column="23" lean-forward="false" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/demo/test/encrypt_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="e#14#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/goroutine/demo/test/goroutine_timeout_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="125" column="33" lean-forward="true" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

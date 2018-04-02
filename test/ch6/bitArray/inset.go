@@ -21,7 +21,7 @@ func (s *IntSet) Add(x int) {
 		s.words = append(s.words, 0)
 	}
 	s.words[word] |= 1 << bit
-    fmt.Println(s.words)
+	fmt.Println(s.words)
 }
 
 func (s *IntSet) UnionWith(t *IntSet) {

@@ -1,12 +1,12 @@
 package string
 
 import (
-	"testing"
-	"fmt"
 	"encoding/json"
-	"strings"
-	"strconv"
+	"fmt"
 	"github.com/adolphlxm/atc/logs"
+	"strconv"
+	"strings"
+	"testing"
 )
 
 func TestA(t *testing.T) {
@@ -19,7 +19,7 @@ func TestA(t *testing.T) {
 	fmt.Println(intToByteArray(2568))
 	fmt.Println(fmt.Sprintf("%c", 0x67))
 	fmt.Println(fmt.Sprintf("0X%02X", 130))
-	fmt.Println(50/3)
+	fmt.Println(50 / 3)
 
 	newReport := make([]string, 0)
 	tb := `"eyJjb2RlIjoyODAxLCJyZXF1ZXN0IjoiMTAwL3JlbW90ZS9tb2RpZnlDYXIiLCJtc2ciOiJcdThiZTVcdThiYmVcdTU5MDdcdTRlMGRcdTY1MmZcdTYzMDFcdTYwYThcdTc2ODRcdTU0YzFcdTcyNGMiLCJkYXRhIjp7fX0="`
@@ -40,7 +40,7 @@ func TestA(t *testing.T) {
 		str = strings.TrimPrefix(str, `}"`)
 		tp := strings.Split(str, ",")
 		for _, v := range tp {
-			if (strings.Contains(v, "\\u")) {
+			if strings.Contains(v, "\\u") {
 				sp := strings.Split(v, ":")
 				v = "msg:" + formatUnicode(sp[1])
 			}
@@ -49,6 +49,7 @@ func TestA(t *testing.T) {
 	}
 
 }
+
 /**
  * 将unicode码装换为汉字
  */
@@ -70,8 +71,7 @@ func formatUnicode(str string) string {
 	return context
 }
 
-
-func intToByteArray(a int) []byte{
+func intToByteArray(a int) []byte {
 	ret := make([]byte, 4)
 	ret[3] = byte(a & 0xFF)
 	ret[2] = byte((a >> 8) & 0xFF)

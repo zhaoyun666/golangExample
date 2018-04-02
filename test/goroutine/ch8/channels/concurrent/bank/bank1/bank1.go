@@ -17,7 +17,7 @@ func teller() {
 			balance += amount
 		case balances <- balance:
 		case amount := <-withdraw:
-			if balance - amount >= 0 {
+			if balance-amount >= 0 {
 				balance -= amount
 			} else {
 				balance = 0

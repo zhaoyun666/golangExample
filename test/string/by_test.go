@@ -1,9 +1,9 @@
 package string
 
 import (
-	"testing"
-	"fmt"
 	"bytes"
+	"fmt"
+	"testing"
 )
 
 func TestByte(t *testing.T) {

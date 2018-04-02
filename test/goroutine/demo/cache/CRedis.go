@@ -1,21 +1,16 @@
 package cache
 
 import (
-    "gopkg.in/redis.v5"
-    "time"
+	"github.com/garyburd/redigo/redis"
+	"log"
 )
 
-var Rd *redis.Client
+func InitCache() redis.Conn {
+	Rd, err := redis.Dial("TCP", "127.0.0.1:3306")
+	if err != nil {
+		log.Fatalf("err:%s", err.Error())
+	}
 
-func init() {
-    Rd = redis.NewClient(&redis.Options{
-        Addr:         "127.0.0.1:6379",
-        DialTimeout:  10 * time.Second,
-        ReadTimeout:  30 * time.Second,
-        WriteTimeout: 30 * time.Second,
-        PoolSize:     10,
-        PoolTimeout:  30 * time.Second,
-        DB: 0,
-    })
-    Rd.FlushDb()
+	Rd.Flush()
+	return Rd
 }
