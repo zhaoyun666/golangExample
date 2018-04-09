@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"testing"
 	"time"
+	"math/rand"
 )
 
 // 测试goroutine 通道超时
@@ -136,3 +137,97 @@ func never_leak(ch chan int) {
 }
 
 // 共享变量 end -----------------------------------------------------
+
+
+// 多路复用
+
+// 生成随机数
+func rand_generator_1() int {
+	return rand.Int()
+}
+
+// 返回通道 channel
+func rand_generator_2() chan int {
+	// 创建通道
+	out := make(chan int)
+	// 创建goroutine
+	go func() {
+		for {
+			out <- rand_generator_1()
+		}
+	}()
+	return out
+}
+
+func rand_generator_3() chan int {
+	rand_service_handler1 := rand_generator_2()
+	rand_service_handler2 := rand_generator_2()
+
+	out := make(chan int)
+
+	go func() {
+		for {
+			out <- <-rand_service_handler1
+			fmt.Println("--------")
+		}
+	}()
+
+	go func() {
+		for {
+			out <- <-rand_service_handler2
+			fmt.Println("+++++++++")
+		}
+	}()
+
+	return out
+}
+
+func TestMultiplexing(t *testing.T) {
+	rand_service_handler := rand_generator_3()
+	fmt.Printf("%d\n", <-rand_service_handler)
+	fmt.Printf("%d\n", <-rand_service_handler)
+	fmt.Printf("%d\n", <-rand_service_handler)
+}
+
+// 多路复用结束
+
+func TestLoop(t *testing.T) {
+	go func() {
+		for {
+			fmt.Println(time.Now().Unix())
+			//fmt.Println(rand.Int())
+		}
+
+	}()
+	time.Sleep(3*time.Second)
+}
+
+// 并发循环
+
+func TestConcurrentLoop(t *testing.T) {
+	data := make([]int, 0)
+	for i := 0; i < 60; i++ {
+		for j := 1; j < 4; j++ {
+			data = append(data, j)
+		}
+	}
+
+	N := len(data)
+	m := make(chan int, N)
+	for i, x := range data {
+		go func(i, x int) {
+			doSomething(i, x)
+			m <- 0
+		}(i, x)
+	}
+	fmt.Println("并发循环结束")
+	// 等待结束，查看结果
+	for i := 0; i < N; i++ {
+		<-m
+	}
+	fmt.Println("任务完成")
+}
+
+func doSomething(i int, x int) {
+	fmt.Printf("i=%d, x=%d", i, x)
+}

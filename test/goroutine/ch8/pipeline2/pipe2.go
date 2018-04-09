@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	naturals := make(chan int)
@@ -26,5 +29,5 @@ func main() {
 	for x := range squares {
 		fmt.Print(x)
 	}
-
+	time.Sleep(10*time.Second)
 }
