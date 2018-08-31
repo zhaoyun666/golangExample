@@ -2,9 +2,9 @@ package test
 
 import (
 	"fmt"
+	"math/rand"
 	"testing"
 	"time"
-	"math/rand"
 )
 
 // 测试goroutine 通道超时
@@ -138,7 +138,6 @@ func never_leak(ch chan int) {
 
 // 共享变量 end -----------------------------------------------------
 
-
 // 多路复用
 
 // 生成随机数
@@ -199,7 +198,7 @@ func TestLoop(t *testing.T) {
 		}
 
 	}()
-	time.Sleep(3*time.Second)
+	time.Sleep(3 * time.Second)
 }
 
 // 并发循环

@@ -1,10 +1,10 @@
 package test
 
 import (
-	"testing"
 	"bufio"
-	"os"
 	"fmt"
+	"os"
+	"testing"
 )
 
 func TestDup1(t *testing.T) {

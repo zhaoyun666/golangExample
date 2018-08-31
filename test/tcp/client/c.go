@@ -1,13 +1,13 @@
 package main
 
 import (
-	"net"
-	"log"
-	"fmt"
 	"bufio"
-	"os"
+	"fmt"
 	"io"
 	"learning-golang-process/test/tcp/common"
+	"log"
+	"net"
+	"os"
 )
 
 func main() {

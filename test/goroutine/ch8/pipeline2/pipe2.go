@@ -29,5 +29,5 @@ func main() {
 	for x := range squares {
 		fmt.Print(x)
 	}
-	time.Sleep(10*time.Second)
+	time.Sleep(10 * time.Second)
 }

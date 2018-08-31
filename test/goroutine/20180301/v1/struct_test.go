@@ -21,3 +21,9 @@ func TestStruct(t *testing.T) {
 	c, _ := json.Marshal(C)
 	fmt.Println(c)
 }
+
+func TestBinary(t *testing.T) {
+	fmt.Println(7 >> 1)
+	fmt.Println(11 >> 2)
+	fmt.Println(11 >> 3)
+}

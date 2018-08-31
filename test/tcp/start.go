@@ -1,8 +1,8 @@
 package main
 
 import (
-	"learning-golang-process/test/tcp/service"
 	"fmt"
+	"learning-golang-process/test/tcp/service"
 )
 
 func main() {

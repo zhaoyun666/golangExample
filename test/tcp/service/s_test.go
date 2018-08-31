@@ -1,10 +1,10 @@
 package service
 
 import (
+	"log"
+	"net"
 	"testing"
 	"time"
-	"net"
-	"log"
 )
 
 func buildTestServer() *server {
@@ -35,7 +35,7 @@ func Test_accept_new_client_callback(t *testing.T) {
 
 	// Wait for server
 	// If test fails - increase this value
-	time.Sleep(10 *time.Second)
+	time.Sleep(10 * time.Second)
 
 	conn, err := net.Dial("tcp", "127.0.0.1:8989")
 	if err != nil {

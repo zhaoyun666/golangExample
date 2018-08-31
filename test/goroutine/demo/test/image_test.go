@@ -1,16 +1,16 @@
 package test
 
 import (
+	"image"
 	"os"
 	"testing"
-	"image"
 	//"bytes"
 	//"bufio"
-	"image/png"
-	"log"
+	"bytes"
 	"code.google.com/p/graphics-go/graphics"
 	"fmt"
-	"bytes"
+	"image/png"
+	"log"
 )
 
 func TestImageByte(t *testing.T) {
@@ -26,7 +26,7 @@ func TestImageByte(t *testing.T) {
 	fmt.Println(imgType)
 	//return
 	dst := image.NewRGBA(image.Rect(0, 0, 80, 80))
-	err := graphics.Scale(dst, img)   //缩小图片
+	err := graphics.Scale(dst, img) //缩小图片
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -38,11 +38,11 @@ func readFileToBytes(f *os.File) []byte {
 	for {
 		buf := make([]byte, 1024)
 		switch n, err := f.Read(buf[:]); true {
-		case n < 0 :
+		case n < 0:
 			panic(err)
-		case n == 0 : //EOF
+		case n == 0: //EOF
 			return chunks
-		case n > 0 :
+		case n > 0:
 			chunks = append(chunks, buf...)
 		}
 	}
@@ -52,13 +52,12 @@ func SaveImage(path string, img image.Image) (err error) {
 	imgfile, err := os.Create(path)
 
 	defer imgfile.Close()
-	err = png.Encode(imgfile, img)   //编码图片
+	err = png.Encode(imgfile, img) //编码图片
 	if err != nil {
 		log.Fatal("Save fail:", err)
 	}
 	return
 }
-
 
 func TestMap(t *testing.T) {
 	var a = map[string]interface{}{
