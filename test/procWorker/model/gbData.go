@@ -1,5 +1,14 @@
 package model
 
+type ProtoData struct {
+	X1 *P01
+	X2 *P02
+	X3 *P03
+	X4 *P04
+	X5 *P05
+	X6 *P06
+	X7 *P07
+}
 // 整车数据 0x1
 type P01 struct {
 	Vehicle_status    byte   `xorm:"tinyint(3) "`
@@ -19,16 +28,20 @@ type P01 struct {
 	Brake_pedal_scale byte   `xorm:"tinyint(3) "`
 }
 
-// 驱动电机数据2
+// 驱动电机数据
 type P02 struct {
-	E1 byte // 驱动点击序号
+	Drive byte // 驱动电机个数
+	DriveList []*P002 // 驱动电机总成信息列表
+}
+type P002 struct {
+	E1 byte // 驱动电机序号
 	E2 byte // 驱动点击状态
 	E3 byte // 驱动电机控制器温度
 	E4 uint16 // 驱动电机转速
-	E5 int16 // 驱动电机转矩
+	E5 uint16 // 驱动电机转矩
 	E6 int8 // 驱动电机温度
-	E7 uint16 // 电机控制器输入电压 单位0.1
-	E8 int16 // 电机控制器直流母线电流
+	E7 int16 // 电机控制器输入电压 单位0.1
+	E8 uint16 // 电机控制器直流母线电流 单位0.1
 }
 
 // 燃料电池数据
@@ -37,7 +50,7 @@ type P03 struct {
 	E2 uint16 // 燃料电池电流 0.1
 	E3 uint16 // 燃料消耗率 0.01
 	E4 uint16 // 燃料电池温度探针总数
-	E5 int16 // 探针温度值
+	E5 uint16 // 探针温度值
 	E6 int16 // 氢系统中最高温度 0.1
 	E7 byte // 氢系统中最高温度探针代号
 	E8 uint16 // 氢气最高浓度

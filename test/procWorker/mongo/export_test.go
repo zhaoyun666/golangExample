@@ -10,12 +10,16 @@ import (
 	"io"
 	"learning-golang-process/test/procWorker/utils"
 	"os"
-	sync2 "sync"
 	"testing"
+	"sync"
+	"strings"
+	//"strconv"
+	"learning-golang-process/test/procWorker/helper"
+	"bytes"
 )
 
 var (
-	wg     sync2.WaitGroup
+	wg     sync.WaitGroup
 	output = make([]string, 0)
 )
 
@@ -107,7 +111,23 @@ func readMongo(MG *mgo.Session, o string) {
 
 // 解析原始报文
 func TestParseData(t *testing.T) {
-	filename := fmt.Sprintf("/home/work/go/src/learning-golang-process/test/procWorker/logs/%s.txt", "LJ8E3A1M3HE006360")
+	filename := fmt.Sprintf("/work/language/go/src/learning-golang-process/test/procWorker/logs/%s.txt", "LJ8E3A1M3HE006360")
 	readFile(filename)
-	fmt.Println(output)
+	parsing()
+}
+
+func parsing() {
+	for _, v := range output {
+		tmp := strings.Split(v, " ")
+		var vin, proto string
+		vin = tmp[0]
+		//a,_ := strconv.Atoi(tmp[1])
+		act := fmt.Sprintf("%02x", 2)
+		proto = tmp[2]
+		fmt.Println(vin)
+		fmt.Println(act)
+		bt := bytes.NewBufferString(proto)
+		fmt.Println(helper.ParseProto(bt))
+		return
+	}
 }

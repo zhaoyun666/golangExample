@@ -6,26 +6,26 @@ import (
 	"fmt"
 	. "learning-golang-process/test/procWorker/model"
 	"math"
-	"encoding/hex"
-	"git.linewin.cc/msvr-cluster/dbworker/models/obdlog"
 )
 
-func ParseProto(r *bytes.Buffer) string {
-	var gps string
+func ParseProto(r *bytes.Buffer) *ProtoData {
+	pro := &ProtoData{}
 	runHandler := func(action byte) {
 		switch action {
 		case 0x1:
-			handler_0x01(r)
+			pro.X1 = handler_0x01(r)
 		case 0x2:
-			handler_0x02(r)
+			pro.X2 = handler_0x02(r)
 		case 0x3:
-			handler_0x03(r)
+			pro.X3 = handler_0x03(r)
 		case 0x4:
-			handler_0x04(r)
+			pro.X4 = handler_0x04(r)
 		case 0x5:
-			gps = handler_0x05(r)
+			pro.X5 = handler_0x05(r)
 		case 0x6:
+			pro.X6 = handler_0x06(r)
 		case 0x7:
+			pro.X7 = handler_0x07(r)
 		case 0x8:
 		case 0x9:
 		}
@@ -40,7 +40,7 @@ func ParseProto(r *bytes.Buffer) string {
 		}
 		runHandler(action)
 	}
-	return gps
+	return pro
 }
 
 func handler_0x01(r *bytes.Buffer) *P01 {
@@ -102,15 +102,18 @@ func handler_0x01(r *bytes.Buffer) *P01 {
 	return p01
 }
 
-func handler_0x02(r *bytes.Buffer) {
+func handler_0x02(r *bytes.Buffer) *P02 {
 	drive, _ := r.ReadByte()
-
-	for i := 0; i < int(drive); i++ {
-		handler_0x02_drive(r)
+	p2 := &P02{
+		Drive: drive,
 	}
+	for i := 0; i < int(drive); i++ {
+		p2.DriveList = append(p2.DriveList, handler_0x02_drive(r))
+	}
+	return p2
 }
 
-func handler_0x02_drive(r *bytes.Buffer) *P02 {
+func handler_0x02_drive(r *bytes.Buffer) *P002 {
 	// Declare an empty slice
 	buf_2 := make([]byte, 2)
 
@@ -134,51 +137,73 @@ func handler_0x02_drive(r *bytes.Buffer) *P02 {
 	e7, _ := r.Read(buf_2)
 	// 2Byte, 0 ~ 20000,offest 10000
 	e8, _ := r.Read(buf_2)
-	return &P02{
+	return &P002{
 		E1: e1,
 		E2: e2,
 		E3: e3,
 		E4: uint16(e4),
 		E5: uint16(e5),
-		E6: e6,
-		E7: uint16(e7),
+		E6: int8(e6),
+		E7: int16(e7),
 		E8: uint16(e8),
 	}
 }
 
-func handler_0x03(r *bytes.Buffer) {
+func handler_0x03(r *bytes.Buffer) *P03 {
 	// Declare an empty slice
 	buf_2 := make([]byte, 2)
 
 	// 2Byte
-	e1, _ := r.Read(buf_2)
+	r.Read(buf_2)
+	e1 := binary.BigEndian.Uint16(buf_2)
 	// 2Byte
-	e2, _ := r.Read(buf_2)
+	r.Read(buf_2)
+	e2 := binary.BigEndian.Uint16(buf_2)
 	// 2Byte
-	e3, _ := r.Read(buf_2)
+	r.Read(buf_2)
+	e3 := binary.BigEndian.Uint16(buf_2)
 	// 2Byte
 	r.Read(buf_2)
 	fuel_probe_total := binary.BigEndian.Uint16(buf_2)
 
 	// 1 * N
+	var e5 uint16
 	if fuel_probe_total != 65534 && fuel_probe_total != 65535 {
 		buf_n := make([]byte, fuel_probe_total)
 		r.Read(buf_n)
+		e5 = binary.BigEndian.Uint16(buf_n)
 	}
 	// 2Byte
-	e5, _ := r.Read(buf_2)
+	r.Read(buf_2)
+	e6 := binary.BigEndian.Uint16(buf_2)
 	// 1Byte
-	e6, _ := r.ReadByte()
+	e7, _ := r.ReadByte()
 	// 2Byte
-	e7, _ := r.Read(buf_2)
+	r.Read(buf_2)
+	e8 := binary.BigEndian.Uint16(buf_2)
 	// 1Byte
-	e8, _ := r.ReadByte()
+	e9, _ := r.ReadByte()
 	// 2Byte
-	e9, _ := r.Read(buf_2)
+	r.Read(buf_2)
+	e10 := binary.BigEndian.Uint16(buf_2)
 	// 1Byte
-	e10, _:= r.ReadByte()
+	e11, _:= r.ReadByte()
 	// 1Byte
-	e11, _ := r.ReadByte()
+	e12, _ := r.ReadByte()
+	return &P03{
+		E1: uint16(e1),
+		E2: uint16(e2),
+		E3: uint16(e3),
+		E4: fuel_probe_total,
+		E5: e5,
+		E6: int16(e6),
+		E7: e7,
+		E8: e8,
+		E9: e9,
+		E10: e10,
+		E11: e11,
+		E12: e12,
+	}
 }
 
 func handler_0x04(r *bytes.Buffer) *P04 {
@@ -275,7 +300,7 @@ func handler_0x06(r *bytes.Buffer) *P06 {
 	}
 }
 
-func handler_0x07(r *bytes.Buffer) *P05 {
+func handler_0x07(r *bytes.Buffer) *P07 {
 
 	// Declare an empty slice
 	buf_4 := make([]byte, 4)
@@ -293,7 +318,7 @@ func handler_0x07(r *bytes.Buffer) *P05 {
 	logitude_str := fmt.Sprintf("%.6f", float64(longitude)/math.Pow(10, 6))
 	latitude_str := fmt.Sprintf("%.6f", float64(latitude)/math.Pow(10, 6))
 
-	return &P05{
+	return &P07{
 		E1:state,
 		E2: logitude_str,
 		E3: latitude_str,
